@@ -1,1 +1,42 @@
 
+*{
+    margin:0;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+  }
+ 
+.navbar1 a{
+    margin-left:15px;
+    /* background-color: #34215B; */
+    padding: 10px;
+    text-decoration: none;
+}
+ 
+.upperLink a{
+    color: #4E8071;
+}
+.link a{
+    color: white;
+}
+.upperLink {
+    position: absolute;
+    right:0;
+    color:#4E8071;  
+    padding-top: 3%;
+    margin-right: 15%;
+}
+.link  {
+    position: absolute;
+    right:0;
+    top: 30px;
+    margin-right: 15%;
+    color:white;
+    padding-top: 4%;
+}
+html{
+  background-color: #34215B;
+}
