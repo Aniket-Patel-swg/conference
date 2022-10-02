@@ -11,6 +11,13 @@ export default function Main() {
           computer graphics, animation, VR, Gaming, and Emerging Technologies.
         </p>
       </div>
+      <div className="cards-container">
+        <div className="card">Production & animation</div>
+        <div className="card">Research & Education</div>
+        <div className="card">Art & Design</div>
+        <div className="card">Gaming & Interactive</div>
+        <div className="card">New Technologies</div>
+      </div>
     </div>
   )
 }
