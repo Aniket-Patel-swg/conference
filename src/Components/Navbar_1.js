@@ -1,5 +1,5 @@
-import React   from "react" 
-
+import React from "react" 
+ 
 // import { useRef,useEffect } from "react" 
 export default function Navbar() {
     const hamburgerr = document.querySelector(".hamburger");
@@ -16,7 +16,7 @@ export default function Navbar() {
   return ( 
      <div className="header">
        <nav className="navbar">
-        <img src= "./img/pdeu.png" alt="PDEU"></img>
+        <img src="./img/pdeu.png" alt="PDEU"></img>
 
         <ul className="nav-main-menu">
             <li className="nav-item">
