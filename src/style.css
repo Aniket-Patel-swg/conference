@@ -2,6 +2,8 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    font-family: "Inter";
+    font-style: normal; 
 }
 .header{
     background-color: #34215B;
@@ -16,7 +18,7 @@ a{
 }
 
 .navbar{
-    min-height: 100px;
+    min-height: 120px;
     /* position: fixed; */
     /* here we have to adjust the min height */
     display:flex;
@@ -37,6 +39,7 @@ a{
 }
 .navbar .logo{
     font-size: xx-large;
+    color: white;
 }
 .navbar .nav-link{
     transition: 0.4s ease;
@@ -86,10 +89,16 @@ a{
         width:100%;
         text-align: center;
         transition: 0.3s;
+        border-radius: 10px;
+        border-bottom: #F0CB47;
     }
+     
     .nav-item{
-        margin: 25px 0; 
+        padding:25px;
+       
+        /* margin: 15px 0;  */
         box-sizing: border-box;
+        /* border:1px solid #F0CB47; */
         /* border-radius: 10px; */
         /* border-bottom: 2px white; */
     }
@@ -98,13 +107,16 @@ a{
         
         /* font-weight: bold; */
         /* border-color: aliceblue; */
+        border-bottom: 1px solid #F0CB47;
         padding: 10px;
         border: 2px white;
     }
     ul :hover{
         /* transform: scale(1.2); */
         
+        transition-delay: 0.3s;
         background-color: #473470;
+        border-radius: 10px;
         color: #F0CB47;
         transition:0.7s ease-out ;
 
@@ -112,50 +124,3 @@ a{
 
 }
  
-/* 
-*{
-    margin:0;
-    font-family: "Inter";
-   
-
-  }
- 
-.navbar1 a{
-    margin-left:15px;
-    /* background-color: #34215B; */
-    /* padding: 10px;
-    text-decoration: none;
-}
- 
-.upperLink a{
-    color: #4E8071;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-}
-.link a{
-    color: white;
-     font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-}
-.upperLink {
-    position: absolute;
-    right:0;
-    color:#4E8071;  
-    padding-top: 3%;
-    margin-right: 15%;
-}
-.link  {
-    position: absolute;
-    right:0;
-    top: 30px;
-    margin-right: 15%;
-    color:white;
-    padding-top: 4%;
-}
-html{
-  background-color: #34215B;
-} */ 

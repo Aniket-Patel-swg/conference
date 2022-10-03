@@ -1,5 +1,5 @@
 import React from "react" 
- 
+import {BsSearch} from 'react-icons/bs'
 // import { useRef,useEffect } from "react" 
 export default function Navbar() {
     const hamburgerr = document.querySelector(".hamburger");
@@ -16,7 +16,7 @@ export default function Navbar() {
   return ( 
      <div className="header">
        <nav className="navbar">
-        <img src="./img/pdeu.png" alt="PDEU"></img>
+         <div className="logo">PDEU</div>
 
         <ul className="nav-main-menu">
             <li className="nav-item">
@@ -32,7 +32,7 @@ export default function Navbar() {
                 <a href="/" className="nav-link">PRESS</a>
             </li>
             <li className="nav-item">
-                <a href="/" className="nav-link">SEARCH</a>
+                <a href="/" className="nav-link"><BsSearch/></a>
             </li>
           
         </ul>
@@ -40,7 +40,7 @@ export default function Navbar() {
                 <span className="bar"></span>
                 <span className="bar"></span>
                 <span className="bar"></span>
-            </div>
+            </div> 
        </nav>
      </div>
   )
