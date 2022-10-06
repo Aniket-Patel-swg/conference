@@ -1,5 +1,6 @@
 import React, {useState} from "react"
 import logo from "../assets/images/logo.png"
+import "../assets/css/navbar.css"
 
 // import { useRef,useEffect } from "react"
 export default function Navbar() {
