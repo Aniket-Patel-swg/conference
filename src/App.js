@@ -1,4 +1,4 @@
-import Navbar from "./Components/Navbar"
+import Navbar from "./Components/Navbar_1"
 import Main from "./Components/Main"
 import "./style.css"
 
