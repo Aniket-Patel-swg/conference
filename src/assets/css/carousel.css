@@ -1,0 +1,194 @@
+.carousel-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.carousel-flex {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.carousel-text-container {
+  margin-top: 1rem;
+}
+.main-heading-2 {
+  text-transform: uppercase;
+}
+.main-heading-1,
+.main-heading-2 {
+  text-align: center;
+}
+.sub-title-container {
+  margin-top: 1.2rem;
+}
+.sub-title {
+  text-align: center;
+}
+
+.main-description {
+  margin: 1.2rem 1.5rem;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.description p {
+  text-align: center;
+}
+
+.carousel-image-container img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* CSS for Carousel.js file*/
+.carousels-section {
+  background-color: #34215b;
+  color: #fff;
+  position: relative;
+}
+.allCarousels-container {
+  overflow-x: auto;
+  position: relative;
+  height: 85vh;
+}
+.btns-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 20px;
+  margin-top: 25px;
+  padding-bottom: 25px;
+}
+.btn {
+  background-color: #4cc5b2;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 50px;
+  width: 180px;
+  color: #34215b;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+.prev-btn {
+  text-align: center;
+}
+.next-btn {
+  text-align: center;
+}
+.indicators {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  bottom: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.indicator {
+  width: 80px;
+  height: 5px;
+  background-color: #fff;
+}
+.active-indicator {
+  background-color: #4cc5b2;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .allCarousels-container {
+    height: 90vh;
+  }
+  .carousel-container {
+    padding: 2rem 4rem;
+  }
+  .description p {
+    width: 80%;
+    margin: auto;
+  }
+  .carousel-image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .carousel-image-container img {
+    max-width: 80%;
+  }
+
+  .btn {
+    width: 200px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .carousels-section {
+    padding: 5rem 10rem;
+  }
+  .carousel-flex {
+    flex-direction: row;
+  }
+  .carousel-text-container {
+    width: 60%;
+    margin-top: 1rem;
+  }
+  .main-heading-2 {
+    text-transform: uppercase;
+  }
+  .main-heading-1,
+  .main-heading-2 {
+    text-align: left;
+  }
+  .sub-title {
+    text-align: left;
+  }
+  .main-description {
+    margin: 0;
+    margin-top: 1.8rem;
+  }
+  .title {
+    text-align: left;
+  }
+  .description p {
+    width: 88%;
+    text-align: justify;
+  }
+  .carousel-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .carousel-image-container img {
+    max-width: 85%;
+    height: 90%;
+    object-fit: cover;
+  }
+
+  /* Carousel.js file css */
+  .allCarousels-container {
+    height: 50vh;
+  }
+  .btns-container {
+    justify-content: space-between;
+    margin-top: 25px;
+  }
+  .btn {
+    width: 200px;
+    font-size: 18px;
+  }
+  .prev-btn {
+    text-align: end;
+    padding-right: 25px;
+  }
+  .next-btn {
+    text-align: start;
+    padding-left: 30px;
+  }
+  .indicators {
+    position: static;
+    justify-content: center;
+    transform: translateX(0);
+  }
+  .indicator {
+    width: 100px;
+  }
+}
