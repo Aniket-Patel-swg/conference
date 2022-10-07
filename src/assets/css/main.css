@@ -1,44 +1,45 @@
 /* Main section  */
 .main {
-  background-image: url("../images/main-bg.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/main-bg.png");
+  background-color: #392647;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  /* height: 120vh; */
+  background-size: contain;
   width: 100%;
   color: #fff;
 }
 
 .main-text-container {
-  max-width: 400px;
-  padding-top: 100px;
-  margin-left: 180px;
+  max-width: 75%;
+  margin: auto;
+  padding-top: 20px;
 }
 
 .main-heading {
-  font-size: 45px;
+  font-size: clamp(24px, calc(1.5rem + ((1vw - 3px) * 3.5)), 45px);
   font-weight: 400;
   font-family: var(--font-family);
-  max-width: 50px;
-  line-height: 54px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .main-desc {
-  margin-top: 25px;
-  font-size: 18px;
+  margin-top: 1rem;
+  font-size: clamp(15px, calc(0.9375rem + ((1vw - 3px) * 0.5)), 18px);
   font-weight: 400px;
-  text-align: justify;
+  text-align: center;
 }
 
 /* Cards */
 .cards-container {
   display: flex;
-  gap: 40px;
+  gap: 20px;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 200px;
   padding-bottom: 100px;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 5rem;
 }
 .card {
   min-height: 200px;
@@ -51,4 +52,69 @@
   display: flex;
   align-items: flex-end;
   padding-bottom: 20px;
+}
+
+/* Media queries */
+
+@media (min-width: 500px) and (max-width: 600px) {
+  .main-text-container {
+    padding-top: 10%;
+  }
+}
+@media (min-width: 600px) and (max-width: 750px) {
+  .main {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7) #392647),
+      url("../images/main-bg.png") no-repeat;
+    background-size: contain;
+  }
+  .main-text-container {
+    padding-top: 15%;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 1000px) {
+  .main-text-container {
+    padding-top: 140px;
+    min-height: 460px;
+  }
+  .cards-container {
+    margin-top: 4rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .main-text-container {
+    max-width: 400px;
+    padding-top: 100px;
+    margin: 0;
+    margin-left: 180px;
+  }
+  .main-heading {
+    max-width: 80%;
+    text-transform: uppercase;
+    text-align: justify;
+  }
+  .main-desc {
+    margin-top: 1rem;
+    text-align: justify;
+  }
+  .cards-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    padding-bottom: 100px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .main {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+      url("../images/main-bg.png");
+    background-color: #392647;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
