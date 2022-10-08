@@ -14,6 +14,7 @@
     margin-top: 5%;
     margin-left: 17%;
     margin-bottom: 3%;
+    color:#34215b;
 }
 .card-container{
     display: flex;
@@ -34,6 +35,11 @@
     width: 203px;
 }
 
+@media (max-width:585px){
+    .card-container{
+        margin:2% 3% 2% 3%;
+    }
+}
 
 
 
