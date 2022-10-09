@@ -20,7 +20,7 @@ a{
     list-style: none;
     display: flex;
     gap:20px;
-  
+    display: inline-flex;
     margin-right: 0;
 }
 .conf{
@@ -36,7 +36,7 @@ a{
     color:white;
     display:flex;
     font-size: large;
-    gap :5%;
+    gap : 7%;
 
     
 }
@@ -48,10 +48,13 @@ a{
 }
 .parts ul{
     list-style: none;
+    display: inline-flex;
 }
+/* .parts_l li{
+    
+} */
 .parts_l ul{
     list-style: none;
-    
 }
 .parts_l ul li:nth-child(1){
     margin-bottom:55px ;
@@ -62,8 +65,8 @@ a{
 }
 .parts_l ul:nth-child(1){
     border-right: 2px solid white;
-} */
-/* .parts ul li:nth-child(2){
+}
+.parts ul li:nth-child(2){
    margin:0 6px 0 6px;
 } */
 /* 
@@ -77,5 +80,69 @@ a{
 .parts_l ul:nth-child(3){
          border-right: none;
 } */
+@media (max-width: 1170px) and (min-width: 1000px){
+   .footer-p1{
+    padding: 57px 2% 57px 8% ;
+    align-items: center;
+   }
+   .conf .connect{
+    display: flex;
+    font-size: medium;
+    width: 50%;
+   }
+   .footer-p2{
+    padding:13% 76px 10% 7%;
+    font-size: medium; 
+    gap : 5.5%;
+   }
+}
+@media (min-width: 870px) and (max-width: 1000px) {
+    .footer-p1{
+        padding: 57px 7% 57px 8% ;
+        align-items: center;
+    }
+    .conf{
+        display: flex;
+        font-size: small;
+       }
+       .footer-p2{
+        padding:13% 76px 10% 7%;
+        font-size: small; 
+        gap : 6.5%;
+       }   
+}
+@media (max-width: 870px) {
+    .footer-p1{
+        text-align: center;
+        justify-content: center;
+    }
+    
 
- 
+    .conf{
+        text-align: center;
+        font-size: small;
+        width: 100%;
+        display: block;
+    }
+    .foot-topic{
+        margin-bottom: 1.2em;
+    }
+    .footer-p2{
+        padding: 100px 1px 50px 1px;
+        width: 100%;
+        display: block;
+        text-align: center;
+        font-size: small;
+    }
+    .parts{
+        padding-bottom: 2em;
+    }
+}
+
+@media (max-width:600px) {
+    .conf{
+        font-size: small;
+        width: 100%;
+        display: block;
+    }
+}

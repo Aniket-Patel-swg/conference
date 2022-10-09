@@ -12,12 +12,14 @@ export default function Footer() {
                     <div className="foot-topic">
                         <BiCopyright />  2022 Green Hydrogen Conference
                     </div>
+                    <div className="medias">
                     <ul className="connect">
                         <li>Connect with us</li>
                         <li className="lnks"><a href="/"><FaTwitter /></a></li>
                         <li className="lnks"><a href="/"><ImLinkedin2 /></a></li>
                         <li className="lnks"><a href="/"><ImFacebook /></a></li>
                     </ul>
+                    </div>
                 </div>
             </div>
             <div className="footer-p2">
@@ -35,9 +37,7 @@ export default function Footer() {
                     <li>Green Hydrogen Committee</li>
                  </ul>
                 </div>
-                <div className="parts">
- 
-                </div>
+
                 <div className="parts_l">
                     <ul>
                    <li>Blog</li>
