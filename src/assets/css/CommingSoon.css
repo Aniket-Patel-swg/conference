@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,100;1,900&display=swap');
+.mainSection{
+    background-color: #9898c8;
+}
+.heroSection{
+    text-align: center;
+    padding: 1.5em;
+}
+.greenHydrogenText{
+    font-family: 'Raleway','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+    padding-top: 2.3em;
+}
+hr{
+    color: #2a2a2a;
+}
+.mainText{
+    font-family: 'Raleway','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 3em;
+    font-size: 53px;
+    font-weight: 900;
+    color: #2a2a2a;
+}
+.forDummyText{
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 1.3em;
+    padding-bottom: 3em;
+    text-align: center;
+}
+.dummyText{
+    font-family: 'Raleway','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+/* .Button{
+    align-items: center;
+}
+.ButtonStyle {
+  align-items: center;
+  background: #f5f5fa;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: -10px -10px 30px 0 rgb(227, 212, 255),10px 10px 30px 0 #1d0dca17;
+  box-sizing: border-box;
+  color: #2a1f62;
+  cursor: pointer;
+  display: flex;
+  font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5rem;
+  padding: 15px;
+  position: relative;
+  text-align: left;
+  transition: .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+  width: max-content;
+  word-break: normal;
+  word-spacing: normal;
+}
+
+.ButtonStyle:hover {
+  background: #f5f2fc;
+  box-shadow: -15px -15px 30px 0 rgb(197, 193, 253), 15px 15px 30px 0 #1d0dca17;
+}
+
+@media (min-width: 768px) {
+  .ButtonStyle {
+    padding: 24px;
+  }
+} */
+        
+
+/* Parent background
+#F5F5FA */
+.Button{
+    padding-bottom: 3.5em;
+}
+.ButtonStyle{
+    padding: 1.2em;
+    font-family: 'Raleway','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20;
+}
+.ButtonStyle a{
+    color: #2a2a2a;
+    text-decoration: none;
+    font-size: 12px;
+}
